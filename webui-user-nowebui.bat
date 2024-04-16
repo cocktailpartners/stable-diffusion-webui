@@ -3,10 +3,9 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS= --port=7860 --api --cors-allow-origins "*"
-
+set COMMANDLINE_ARGS= --port=7860 --api --nowebui --cors-allow-origins "*"
 
 ::--reinstall-xformers --medvram --xformers 
-::--nowebui
+::
 
 call webui.bat
